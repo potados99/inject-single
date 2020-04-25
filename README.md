@@ -1,2 +1,2 @@
-# inject-single
+# single-injector
 NodeJS singleton injector
