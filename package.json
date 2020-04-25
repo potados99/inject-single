@@ -1,6 +1,6 @@
 {
   "name": "single-injector",
-  "version": "0.0.2",
+  "version": "0.0.9",
   "description": "NodeJS singleton injector",
   "main": "index.mjs",
   "scripts": {
