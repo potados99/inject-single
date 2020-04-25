@@ -1,0 +1,48 @@
+{
+  "name": "single-injector",
+  "version": "0.0.2",
+  "description": "NodeJS singleton injector",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "jest test",
+    "example": "node -r esm example/example.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/potados99/single-injector.git"
+  },
+  "keywords": [
+    "singleton",
+    "injector"
+  ],
+  "author": "potados99",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/potados99/single-injector/issues"
+  },
+  "homepage": "https://github.com/potados99/single-injector#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-jest": "^25.4.0",
+    "esm": "^3.2.25",
+    "jest": "^25.4.0"
+  },
+  "jest": {
+    "testMatch": [
+      "**/__tests__/**/*.?(m)js?(x)",
+      "**/?(*.)(spec|test).?(m)js?(x)"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "mjs"
+    ],
+    "testEnvironment": "node",
+    "transform": {
+      "^.+\\.m?js$": "babel-jest"
+    },
+    "transformIgnorePatterns": [
+      "./node_modules/"
+    ]
+  }
+}
